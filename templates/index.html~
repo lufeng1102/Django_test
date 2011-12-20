@@ -1,0 +1,124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>北京光电技术研究所</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="北京光电技术研究所、光电研究所、光电技术研究所、激光隧道断面检测仪、桥梁挠度仪检测仪、混凝土裂缝测宽仪、裂缝观测仪、动态裂缝监测仪、裂缝综合检测仪、数显回弹仪、混凝土强度检测仪、非金属超声检测仪、钢筋保护层厚度检测仪、钢筋锈蚀检测仪、非金属板厚度检测仪" />
+<meta name="description" content="北京光电技术研究所生产激光隧道断面仪、桥梁挠度仪检测仪、混凝土裂缝测宽仪、裂缝观测仪、动态裂缝监测仪、裂缝综合检测仪、数显回弹仪、混凝土强度检测仪、非金属超声检测仪、钢筋保护层厚度检测仪、钢筋锈蚀检测仪、非金属板厚度检测仪" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
+<script type="text/javascript" src="/j/sup.search.js" ></script>
+<link href="/style/main1.0.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+ </head>
+<body onselectstart="return false">
+<div id="jg">
+	<div id="header">
+ <div id="top">
+  <div id="top_left">
+   <img src="/images/logo.jpg" /></div>
+  <div id="search">
+   <table border="0" cellpadding="0" cellspacing="0" width="300">
+    <tbody>
+     <tr>
+      <td align="right" width="182">
+       <input class="input" id="searchkey" name="searchkey" onfocus="this.value=this.value=='请输入关键词'?'':this.value" size="20" type="text" value="请输入关键词" /></td>
+      <td align="center" width="64">
+       <select class="input2" id="actionType" name="actionType"><option value="21">产品</option><option value="11">新闻</option></select></td>
+      <td width="54">
+       <input name="imageField" onclick="search(this)" src="/images/search.jpg" type="image" /></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+</div>
+<div id="nav_row">
+ <div id="nav">
+  <ul id='main_menu' class='main_menu'><li><a class='active_menu' href='/index.html' title='北京光电技术研究所'>首页</a></li><li><a  href='/introduction/index.html' title='北京光电技术研究所——企业介绍'>企业简介</a></li><li><a  href='/news/index.html' title='北京光电技术研究所——新闻中心'>新闻中心</a></li><li><a  href='/products/index.html' title='北京光电技术研究所——产品信息'>产品信息</a></li><li><a  href='/culture/index.html' title='北京光电技术研究所——企业文化'>企业文化</a></li><li><a  href='/service/index.html' title='北京光电技术研究所——服务中心'>服务中心</a></li><li><a  href='/link_us/index.html' title='北京光电技术研究所——联系我们'>联系我们</a></li></ul></div>
+ <div id="riqi">
+<SCRIPT language=JavaScript src="/js/date.js" type=text/JavaScript></SCRIPT> </div>
+</div>
+<script language='JavaScript'>
+function search(el)
+{
+var key=$("#searchkey").val();
+var ac=$("#actionType").val();
+
+if(key=="请输入关键词"||key=="")
+{
+alert("请输入关键词");
+$("#searchkey")[0].focus();
+return false;
+}
+
+searchAgent.init(51, ac);
+searchAgent.Search(encodeURIComponent(key));
+el.enable=false;
+}
+</script> 
+	<div id="mainer">
+	<div id="banner"><img src="images/banner1.jpg" /></div>
+		<div id="main_1">
+			<div id="left_bn">
+				<a href="/culture/index.html"><img src="images/s_banner1.jpg" class="ban"/></a>
+				<a href="/service/"><img src="images/s_banner2.jpg" class="ban" /></a>
+				<img src="images/s_banner3.jpg" class="ban"/>
+			</div>
+			<div id="news">
+				<div id="block_t">
+					<div id="block_title">新闻中心</div>
+					<div class="more"><a href="/news/" onfocus="this.blur();"><img src="/images/more.gif" border="0" /></a></div>
+				</div>
+				<div id="news_c">
+					<ul id='LastedNews'><li><span class='date'>[2011-11-29]</span><a href='/news/27.html' title='2011全国测绘地理信息技术装备展览会'>2011全国测绘地理信息技术装备展览会</a></li><li><span class='date'>[2011-11-27]</span><a href='/news/24.html' title='反仿冒声明'>反仿冒声明</a></li><li><span class='date'>[2011-10-20]</span><a href='/news/23.html' title='中法大学旧址变身文化园'>中法大学旧址变身文化园</a></li><li><span class='date'>[2011-08-24]</span><a href='/news/22.html' title='健康体魄，快乐工作'>健康体魄，快乐工作</a></li><li><span class='date'>[2011-08-12]</span><a href='/news/21.html' title='BJQF-X远距裂缝观测仪赢得好评'>BJQF-X远距裂缝观测仪赢得好评</a></li><li><span class='date'>[2011-08-01]</span><a href='/news/20.html' title='青春飞扬的季节'>青春飞扬的季节</a></li></ul>
+				</div>
+			</div>
+			<div id="gsjj">
+				<div id="jj_t">
+				<div id="jj_title">企业简介</div>
+				<div class="more"><a href="/introduction/index.html" onfocus="this.blur();"><img src="images/more.gif" border="0" style="margin-top:7px;" /></a></div>
+				</div>
+				
+				<div id="jj_c">
+					<div><img src="images/jj_pic.jpg" style="float:left; margin:4px 12px 0px 0px;" class="pic_kuang"/></div>
+<div>　　北京光电技术研究所激光工程仪器事业部主要从事桥梁挠度检测、隧道断面检测及光电子技术应用等研究和开发工作。桥梁挠度检测仪和隧道断面检测仪是我事业部多年研制生产的主要产品、十年来共生产了四代产品五种型号，其中多项关键技术如位移检测靶、三角架快速对中附件、多点挠度检测仪、隧道限界...</div>		
+				</div>
+			</div>
+		
+		</div>
+		
+		<div id="product">
+		  <div id="product_t">新<br />品<br />推<br />荐</div>
+		  <div id="product_bg">
+		<div id="cp">
+<marquee direction="right" TrueSpeed scrollamount="3" scrolldelay="120" align="middle" behavior="scroll" onMouseOver="this.stop();"  hspace="0" vspace="0"  onMouseOut="this.start();">		<ul class='recommended_product'><li><a href='/products/3.html'><img src='/uploads/BJSD-5型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-5型激光隧道断面检测仪' title='BJSD-5型激光隧道断面检测仪' /></a><br /><a href='/products/3.html' title='BJSD-5型激光隧道断面检测仪'><span>BJSD-5型激光隧道断面检测仪</span></a></li><li><a href='/products/4.html'><img src='/uploads/BJSD-2E型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-2E型激光隧道断面检测仪' title='BJSD-2E型激光隧道断面检测仪' /></a><br /><a href='/products/4.html' title='BJSD-2E型激光隧道断面检测仪'><span>BJSD-2E型激光隧道断面检测仪</span></a></li><li><a href='/products/6.html'><img src='/uploads/BJSD-4型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-4型激光隧道断面检测仪' title='BJSD-4型激光隧道断面检测仪' /></a><br /><a href='/products/6.html' title='BJSD-4型激光隧道断面检测仪'><span>BJSD-4型激光隧道断面检测仪</span></a></li><li><a href='/products/9.html'><img src='/uploads/BJQN-4B型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-4B型桥梁挠度检测仪' title='BJQN-4B型桥梁挠度检测仪' /></a><br /><a href='/products/9.html' title='BJQN-4B型桥梁挠度检测仪'><span>BJQN-4B型桥梁挠度检测仪</span></a></li><li><a href='/products/10.html'><img src='/uploads/BJQN-5A型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-5A型桥梁挠度检测仪' title='BJQN-5A型桥梁挠度检测仪' /></a><br /><a href='/products/10.html' title='BJQN-5A型桥梁挠度检测仪'><span>BJQN-5A型桥梁挠度检测仪</span></a></li><li><a href='/products/11.html'><img src='/uploads/BJQN-5B型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-5B型智能桥梁挠度检测仪' title='BJQN-5B型智能桥梁挠度检测仪' /></a><br /><a href='/products/11.html' title='BJQN-5B型智能桥梁挠度检测仪'><span>BJQN-5B型智能桥梁挠度检测仪</span></a></li><li><a href='/products/14.html'><img src='/uploads/BJQF-X远距裂缝观测仪.jpg_s.jpg' alt='BJQF-X型远距裂缝观测仪' title='BJQF-X型远距裂缝观测仪' /></a><br /><a href='/products/14.html' title='BJQF-X型远距裂缝观测仪'><span>BJQF-X型远距裂缝观测仪</span></a></li><li><a href='/products/15.html'><img src='/uploads/BJLG-1型动态裂缝监测仪.jpg_s.jpg' alt='BJLG-1动态裂缝检测仪' title='BJLG-1动态裂缝检测仪' /></a><br /><a href='/products/15.html' title='BJLG-1动态裂缝检测仪'><span>BJLG-1动态裂缝检测仪</span></a></li><li><a href='/products/17.html'><img src='/uploads/BJCS-1型混凝土裂缝测深仪.jpg_s.jpg' alt='BJCS-1型智能裂缝测深仪' title='BJCS-1型智能裂缝测深仪' /></a><br /><a href='/products/17.html' title='BJCS-1型智能裂缝测深仪'><span>BJCS-1型智能裂缝测深仪</span></a></li><li><a href='/products/18.html'><img src='/uploads/BJLF-1型混凝土裂缝综合检测仪.jpg_s.jpg' alt='BJLF-1型混凝土裂缝综合检测仪' title='BJLF-1型混凝土裂缝综合检测仪' /></a><br /><a href='/products/18.html' title='BJLF-1型混凝土裂缝综合检测仪'><span>BJLF-1型混凝土裂缝综合检测仪</span></a></li><li><a href='/products/20.html'><img src='/uploads/BJQD-1型混凝土强度检测仪.jpg_s.jpg' alt='BJQD-1型混凝土强度检测仪' title='BJQD-1型混凝土强度检测仪' /></a><br /><a href='/products/20.html' title='BJQD-1型混凝土强度检测仪'><span>BJQD-1型混凝土强度检测仪</span></a></li><li><a href='/products/21.html'><img src='/uploads/BJNM-1型智能非金属超声检测仪.jpg_s.jpg' alt='BJNM-1型智能非金属超声检测仪' title='BJNM-1型智能非金属超声检测仪' /></a><br /><a href='/products/21.html' title='BJNM-1型智能非金属超声检测仪'><span>BJNM-1型智能非金属超声检测仪</span></a></li><li><a href='/products/22.html'><img src='/uploads/BJDW-1混凝土保护层厚度检测仪.jpg_s.jpg' alt='BJDW-1型钢筋保护层厚度检测仪' title='BJDW-1型钢筋保护层厚度检测仪' /></a><br /><a href='/products/22.html' title='BJDW-1型钢筋保护层厚度检测仪'><span>BJDW-1型钢筋保护层厚度检测仪</span></a></li><li><a href='/products/24.html'><img src='/uploads/BJLB-1型非金属板厚度检测仪.jpg_s.jpg' alt='BJLB-1型非金属板厚度检测仪' title='BJLB-1型非金属板厚度检测仪' /></a><br /><a href='/products/24.html' title='BJLB-1型非金属板厚度检测仪'><span>BJLB-1型非金属板厚度检测仪</span></a></li></ul>
+   
+</marquee>
+</div>
+ <div id="product_r"></div>
+ 
+
+
+
+                    </div>
+
+		</div>
+	</div>
+	
+	<div id="footer">
+ <div>
+  <strong><div id='bottom_menu' class='bottom_menu'><a href='/contact/index.html' title='北京光电技术研究所——联系方式'>联系方式</a> | <a href='/navigate/tytg.html' title='北京光电技术研究所——网站导航'>网站导航</a> | <a href='/legal/tgg.html' title='北京光电技术研究所——法律声明'>法律声明</a> | <a href='/feedback/jld.html' title='北京光电技术研究所——意见反馈'>意见反馈</a> | <a href='/links/zlts.html' title='北京光电技术研究所——友情链接'>友情链接</a> | </div></strong> 版权所有 北京光电技术研究所 @ 2002-2011&nbsp;&nbsp;京ICP备07000002号-7&nbsp;&nbsp; 公安局备案号：110101000264</div>
+ <div>
+  热线电话：010-64027958&nbsp;&nbsp;E_mail：zy04@vip.sina.com&nbsp;&nbsp;地址：北京市东城区东皇城根北街甲20号&nbsp;&nbsp;邮编：100010</div>
+</div>
+
+</div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffa967ce1d079fc836ea37edbb554d0a0' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>

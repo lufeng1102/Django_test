@@ -1,0 +1,19 @@
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn" xml:lang="zh-cn">  
+<head>  
+<title>{{ title|escape }}</title>  
+</head>  
+<body>  
+<h2>{{ title }}</h2>  
+<table border="1">  
+  <tr><th>ISBN</th><th>书名</th><th>作者</th><th>出版日期</th></tr>  
+  {% for book in books %}  
+  <tr>  
+    <td>{{ book.isbn }}</td>  
+    <td>{{ book.title }}</td>  
+    <td>{{ book.author }}</td>  
+    <td>{{ book.published }}</td>  
+  </tr>  
+  {% endfor %}  
+</table>  
+</body>  
+</html>  

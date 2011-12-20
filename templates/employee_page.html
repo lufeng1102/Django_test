@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Django Training - Employee: {{ name }}</title>
+  </head>
+  <body>
+    <h1>Training for {{ name }}</h1>
+
+    <h2>contact: {{ mobile }}</h2>
+
+    {% if computer %}
+    <ul>
+      <li>{{ computer.name }} -- {{ computer.ip }}</li>
+    </ul>
+    {% else %}
+    <p>No computers found.</p>
+    {% endif %}
+  </body>
+</html>
+
