@@ -42,6 +42,18 @@ A.black_link:active {COLOR: #000; text-decoration: none;}
 .input{border: #cccccc 1px solid; height:14px; width:120px; font-size:12px; padding:4px 0px 0px 2px;}
 .input2{border: #cccccc 1px solid; height:18px; font-size:12px;}
 
+/* homelisttitle */
+.homelisttitle{ height:29px; overflow:hidden;background:url(../images/homelisttitle.gif) bottom repeat-x}
+.homelisttitle h1{ width:169px; height:29px; display:inline-block; overflow:hidden; float:left;background:url(../images/homelisttitle_bg.gif) no-repeat; font-size:12px; line-height:29px; margin-left:8px; color:#FFFFFF; padding-left:20px;}
+.homelisttitle h1 a{ color:#FFFFFF}
+.homelisttitle h1 a:hover{ color:#FFFFFF}
+.homelisttitle span{ float:right; line-height:29px;}
+.homelist{ width:100%; overflow:hidden; padding-top:10px;}
+.homelist .goodimgbox{ width:120px; height:190px; overflow:hidden; float:left; text-align:center; margin-left:3px; margin-right:3px; display:inline-block;text-align:center}
+.homelist .goodimg{ width:97px; height:97px; overflow:hidden;background:url(../images/goodimg.gif) no-repeat;padding:2px; text-align: center; padding-left:1px; margin-left:auto; margin-right:auto; margin-bottom:3px;}
+.homelist .goodimg img{ width:92px; height:92px;}
+.homelist .goodimgbox h3{ font-size:12px; font-weight:normal;width:100px;padding-bottom:5px;}
+
 #nav_row{ margin:0 auto; width:958px;height:38px;background:url(../images/nav_bg.jpg) no-repeat;}
 #nav { float:left;width:776px; height:38px; padding-left:12px;}
 #nav ul {float: left; width: 776px; list-style:none;}
@@ -57,3 +69,25 @@ A.black_link:active {COLOR: #000; text-decoration: none;}
 .pic_kuang2{ border:#dadada 1px solid;}
 
 #footer{ float:left;width: 938px; height:72px; line-height:21px; text-align:left; font-family:Arial, Helvetica, sans-serif; background:url(../images/bottom_bg.jpg) no-repeat; padding:10px 0px 0px 20px;}
+
+/*footer*/
+#footer { width:970px; overflow:hidden; background:#fafafa; }
+#footer .copyright { line-height:1.6em; padding:20px 30px 10px 30px; }
+#footer a { color:#414141; }
+/*友情链接*/
+.homefriendlink { width:970px; margin:0 0 10px 0 }
+.homefriendlink h5 { padding:0 0 10px 0; font-size:1.4em }
+.homefriendlink ul { margin:0; }
+.homefriendlink ul li { float:left; width:100px; overflow:hidden; }
+.homefriendlink ul li a{ display:block;}
+.homefriendlink ul li img { width:104px; height:40px; }
+/*talknews1*/
+
+/*蹇€熼€氶亾*/
+.detail { background:#fafafa url(../images/detail.gif) 0 0 no-repeat; float:left; width:970px; padding:20px 0 10px 30px; overflow:hidden; }
+.detail ul { list-style-type:none; }
+.detail ul li { width:150px;line-height:200%; overflow:hidden; color:#5f5f5f; display:block;  }
+.detail ul li a { color:#5f5f5f; white-space:nowrap; }
+.detail ul li.title { font-weight:bold; margin-bottom:5px; }
+.detail a:hover { background:none; text-decoration:underline; }
+.fl { float:left; }

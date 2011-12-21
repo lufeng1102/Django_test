@@ -1,124 +1,431 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>{{page_title}}</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="北京光电技术研究所、光电研究所、光电技术研究所、激光隧道断面检测仪、桥梁挠度仪检测仪、混凝土裂缝测宽仪、裂缝观测仪、动态裂缝监测仪、裂缝综合检测仪、数显回弹仪、混凝土强度检测仪、非金属超声检测仪、钢筋保护层厚度检测仪、钢筋锈蚀检测仪、非金属板厚度检测仪" />
-<meta name="description" content="北京光电技术研究所生产激光隧道断面仪、桥梁挠度仪检测仪、混凝土裂缝测宽仪、裂缝观测仪、动态裂缝监测仪、裂缝综合检测仪、数显回弹仪、混凝土强度检测仪、非金属超声检测仪、钢筋保护层厚度检测仪、钢筋锈蚀检测仪、非金属板厚度检测仪" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
-<script type="text/javascript" src="/j/sup.search.js" ></script>
-<link href="/style/main1.0.css" rel="stylesheet" type="text/css" />
-<link href="css/index.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
- </head>
-<body onselectstart="return false">
-<div id="jg">
-	<div id="header">
- <div id="top">
-  <div id="top_left">
-   <img src="images/logo.jpg" /></div>
-  <div id="search">
-   <table border="0" cellpadding="0" cellspacing="0" width="300">
-    <tbody>
-     <tr>
-      <td align="right" width="182">
-       <input class="input" id="searchkey" name="searchkey" onfocus="this.value=this.value=='请输入关键词'?'':this.value" size="20" type="text" value="请输入关键词" /></td>
-      <td align="center" width="64">
-       <select class="input2" id="actionType" name="actionType"><option value="21">产品</option><option value="11">新闻</option></select></td>
-      <td width="54">
-       <input name="imageField" onclick="search(this)" src="/images/search.jpg" type="image" /></td>
-     </tr>
-    </tbody>
-   </table>
-  </div>
- </div>
-</div>
-<div id="nav_row">
- <div id="nav">
-  <ul id='main_menu' class='main_menu'><li><a class='active_menu' href='/index.html' title='北京光电技术研究所'>首页</a></li><li><a  href='/introduction/index.html' title='北京光电技术研究所——企业介绍'>企业简介</a></li><li><a  href='/news/index.html' title='北京光电技术研究所——新闻中心'>新闻中心</a></li><li><a  href='/products/index.html' title='北京光电技术研究所——产品信息'>产品信息</a></li><li><a  href='/culture/index.html' title='北京光电技术研究所——企业文化'>企业文化</a></li><li><a  href='/service/index.html' title='北京光电技术研究所——服务中心'>服务中心</a></li><li><a  href='/link_us/index.html' title='北京光电技术研究所——联系我们'>联系我们</a></li></ul></div>
- <div id="riqi">
-<SCRIPT language=JavaScript src="/js/date.js" type=text/JavaScript></SCRIPT> </div>
-</div>
-<script language='JavaScript'>
-function search(el)
-{
-var key=$("#searchkey").val();
-var ac=$("#actionType").val();
-
-if(key=="请输入关键词"||key=="")
-{
-alert("请输入关键词");
-$("#searchkey")[0].focus();
-return false;
-}
-
-searchAgent.init(51, ac);
-searchAgent.Search(encodeURIComponent(key));
-el.enable=false;
-}
-</script> 
-	<div id="mainer">
+  <head>
+    <title>{{page_title}}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="北京光电技术研究所、光电研究所、光电技术研究所、激光隧道断面检测仪、桥梁挠度仪检测仪、混凝土裂缝测宽仪、裂缝观测仪、动态裂缝监测仪、裂缝综合检测仪、数显回弹仪、混凝土强度检测仪、非金属超声检测仪、钢筋保护层厚度检测仪、钢筋锈蚀检测仪、非金属板厚度检测仪" />
+    <meta name="description" content="北京光电技术研究所生产激光隧道断面仪、桥梁挠度仪检测仪、混凝土裂缝测宽仪、裂缝观测仪、动态裂缝监测仪、裂缝综合检测仪、数显回弹仪、混凝土强度检测仪、非金属超声检测仪、钢筋保护层厚度检测仪、钢筋锈蚀检测仪、非金属板厚度检测仪" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
+    <script type="text/javascript" src="/j/sup.search.js" ></script>
+    <link href="/style/main1.0.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onselectstart="return false">
+    <div id="jg">
+      <div id="header">
+	<div id="top">
+	  <div id="top_left">
+	    <img src="images/logo.jpg" /></div>
+	  <div id="search">
+	    <table border="0" cellpadding="0" cellspacing="0" width="300">
+	      <tbody>
+		<tr>
+		  <td align="right" width="182">
+		    <input class="input" id="searchkey" name="searchkey" onfocus="this.value=this.value=='请输入关键词'?'':this.value" size="20" type="text" value="请输入关键词" /></td>
+		  <td align="center" width="64">
+		    <select class="input2" id="actionType" name="actionType"><option value="21">产品</option><option value="11">新闻</option></select></td>
+		  <td width="54">
+		    <input name="imageField" onclick="search(this)" src="/images/search.jpg" type="image" /></td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+      </div>
+      <div id="nav_row">
+	<div id="nav">
+	  <ul id='main_menu' class='main_menu'><li><a class='active_menu' href='/index.html' title='北京光电技术研究所'>首页</a></li><li><a  href='/introduction/index.html' title='北京光电技术研究所——企业介绍'>企业简介</a></li><li><a  href='/news/index.html' title='北京光电技术研究所——新闻中心'>新闻中心</a></li><li><a  href='/products/index.html' title='北京光电技术研究所——产品信息'>产品信息</a></li><li><a  href='/culture/index.html' title='北京光电技术研究所——企业文化'>企业文化</a></li><li><a  href='/service/index.html' title='北京光电技术研究所——服务中心'>服务中心</a></li><li><a  href='/link_us/index.html' title='北京光电技术研究所——联系我们'>联系我们</a></li></ul></div>
+	<div id="riqi">
+	  <SCRIPT language=JavaScript src="/js/date.js" type=text/JavaScript></SCRIPT> </div>
+      </div>
+      <script language='JavaScript'>
+	function search(el)
+	{
+	var key=$("#searchkey").val();
+	var ac=$("#actionType").val();
+	
+	if(key=="请输入关键词"||key=="")
+	{
+	alert("请输入关键词");
+	$("#searchkey")[0].focus();
+	return false;
+	}
+	
+	searchAgent.init(51, ac);
+	searchAgent.Search(encodeURIComponent(key));
+	el.enable=false;
+	}
+      </script> 
+      <div id="mainer">
 	<div id="banner"><img src="images/banner1.jpg" /></div>
-		<div id="main_1">
-			<div id="left_bn">
-				<a href="/culture/index.html"><img src="images/s_banner1.jpg" class="ban"/></a>
-				<a href="/service/"><img src="images/s_banner2.jpg" class="ban" /></a>
-				<img src="images/s_banner3.jpg" class="ban"/>
-			</div>
-			<div id="news">
-				<div id="block_t">
-					<div id="block_title">新闻中心</div>
-					<div class="more"><a href="/news/" onfocus="this.blur();"><img src="/images/more.gif" border="0" /></a></div>
-				</div>
-				<div id="news_c">
-					<ul id='LastedNews'><li><span class='date'>[2011-11-29]</span><a href='/news/27.html' title='2011全国测绘地理信息技术装备展览会'>2011全国测绘地理信息技术装备展览会</a></li><li><span class='date'>[2011-11-27]</span><a href='/news/24.html' title='反仿冒声明'>反仿冒声明</a></li><li><span class='date'>[2011-10-20]</span><a href='/news/23.html' title='中法大学旧址变身文化园'>中法大学旧址变身文化园</a></li><li><span class='date'>[2011-08-24]</span><a href='/news/22.html' title='健康体魄，快乐工作'>健康体魄，快乐工作</a></li><li><span class='date'>[2011-08-12]</span><a href='/news/21.html' title='BJQF-X远距裂缝观测仪赢得好评'>BJQF-X远距裂缝观测仪赢得好评</a></li><li><span class='date'>[2011-08-01]</span><a href='/news/20.html' title='青春飞扬的季节'>青春飞扬的季节</a></li></ul>
-				</div>
-			</div>
-			<div id="gsjj">
-				<div id="jj_t">
-				<div id="jj_title">企业简介</div>
-				<div class="more"><a href="/introduction/index.html" onfocus="this.blur();"><img src="images/more.gif" border="0" style="margin-top:7px;" /></a></div>
-				</div>
-				
-				<div id="jj_c">
-					<div><img src="images/jj_pic.jpg" style="float:left; margin:4px 12px 0px 0px;" class="pic_kuang"/></div>
-<div>　　北京光电技术研究所激光工程仪器事业部主要从事桥梁挠度检测、隧道断面检测及光电子技术应用等研究和开发工作。桥梁挠度检测仪和隧道断面检测仪是我事业部多年研制生产的主要产品、十年来共生产了四代产品五种型号，其中多项关键技术如位移检测靶、三角架快速对中附件、多点挠度检测仪、隧道限界...</div>		
-				</div>
-			</div>
-		
-		</div>
-		
-		<div id="product">
-		  <div id="product_t">新<br />品<br />推<br />荐</div>
-		  <div id="product_bg">
-		<div id="cp">
-<marquee direction="right" TrueSpeed scrollamount="3" scrolldelay="120" align="middle" behavior="scroll" onMouseOver="this.stop();"  hspace="0" vspace="0"  onMouseOut="this.start();">		<ul class='recommended_product'><li><a href='/products/3.html'><img src='/uploads/BJSD-5型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-5型激光隧道断面检测仪' title='BJSD-5型激光隧道断面检测仪' /></a><br /><a href='/products/3.html' title='BJSD-5型激光隧道断面检测仪'><span>BJSD-5型激光隧道断面检测仪</span></a></li><li><a href='/products/4.html'><img src='/uploads/BJSD-2E型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-2E型激光隧道断面检测仪' title='BJSD-2E型激光隧道断面检测仪' /></a><br /><a href='/products/4.html' title='BJSD-2E型激光隧道断面检测仪'><span>BJSD-2E型激光隧道断面检测仪</span></a></li><li><a href='/products/6.html'><img src='/uploads/BJSD-4型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-4型激光隧道断面检测仪' title='BJSD-4型激光隧道断面检测仪' /></a><br /><a href='/products/6.html' title='BJSD-4型激光隧道断面检测仪'><span>BJSD-4型激光隧道断面检测仪</span></a></li><li><a href='/products/9.html'><img src='/uploads/BJQN-4B型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-4B型桥梁挠度检测仪' title='BJQN-4B型桥梁挠度检测仪' /></a><br /><a href='/products/9.html' title='BJQN-4B型桥梁挠度检测仪'><span>BJQN-4B型桥梁挠度检测仪</span></a></li><li><a href='/products/10.html'><img src='/uploads/BJQN-5A型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-5A型桥梁挠度检测仪' title='BJQN-5A型桥梁挠度检测仪' /></a><br /><a href='/products/10.html' title='BJQN-5A型桥梁挠度检测仪'><span>BJQN-5A型桥梁挠度检测仪</span></a></li><li><a href='/products/11.html'><img src='/uploads/BJQN-5B型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-5B型智能桥梁挠度检测仪' title='BJQN-5B型智能桥梁挠度检测仪' /></a><br /><a href='/products/11.html' title='BJQN-5B型智能桥梁挠度检测仪'><span>BJQN-5B型智能桥梁挠度检测仪</span></a></li><li><a href='/products/14.html'><img src='/uploads/BJQF-X远距裂缝观测仪.jpg_s.jpg' alt='BJQF-X型远距裂缝观测仪' title='BJQF-X型远距裂缝观测仪' /></a><br /><a href='/products/14.html' title='BJQF-X型远距裂缝观测仪'><span>BJQF-X型远距裂缝观测仪</span></a></li><li><a href='/products/15.html'><img src='/uploads/BJLG-1型动态裂缝监测仪.jpg_s.jpg' alt='BJLG-1动态裂缝检测仪' title='BJLG-1动态裂缝检测仪' /></a><br /><a href='/products/15.html' title='BJLG-1动态裂缝检测仪'><span>BJLG-1动态裂缝检测仪</span></a></li><li><a href='/products/17.html'><img src='/uploads/BJCS-1型混凝土裂缝测深仪.jpg_s.jpg' alt='BJCS-1型智能裂缝测深仪' title='BJCS-1型智能裂缝测深仪' /></a><br /><a href='/products/17.html' title='BJCS-1型智能裂缝测深仪'><span>BJCS-1型智能裂缝测深仪</span></a></li><li><a href='/products/18.html'><img src='/uploads/BJLF-1型混凝土裂缝综合检测仪.jpg_s.jpg' alt='BJLF-1型混凝土裂缝综合检测仪' title='BJLF-1型混凝土裂缝综合检测仪' /></a><br /><a href='/products/18.html' title='BJLF-1型混凝土裂缝综合检测仪'><span>BJLF-1型混凝土裂缝综合检测仪</span></a></li><li><a href='/products/20.html'><img src='/uploads/BJQD-1型混凝土强度检测仪.jpg_s.jpg' alt='BJQD-1型混凝土强度检测仪' title='BJQD-1型混凝土强度检测仪' /></a><br /><a href='/products/20.html' title='BJQD-1型混凝土强度检测仪'><span>BJQD-1型混凝土强度检测仪</span></a></li><li><a href='/products/21.html'><img src='/uploads/BJNM-1型智能非金属超声检测仪.jpg_s.jpg' alt='BJNM-1型智能非金属超声检测仪' title='BJNM-1型智能非金属超声检测仪' /></a><br /><a href='/products/21.html' title='BJNM-1型智能非金属超声检测仪'><span>BJNM-1型智能非金属超声检测仪</span></a></li><li><a href='/products/22.html'><img src='/uploads/BJDW-1混凝土保护层厚度检测仪.jpg_s.jpg' alt='BJDW-1型钢筋保护层厚度检测仪' title='BJDW-1型钢筋保护层厚度检测仪' /></a><br /><a href='/products/22.html' title='BJDW-1型钢筋保护层厚度检测仪'><span>BJDW-1型钢筋保护层厚度检测仪</span></a></li><li><a href='/products/24.html'><img src='/uploads/BJLB-1型非金属板厚度检测仪.jpg_s.jpg' alt='BJLB-1型非金属板厚度检测仪' title='BJLB-1型非金属板厚度检测仪' /></a><br /><a href='/products/24.html' title='BJLB-1型非金属板厚度检测仪'><span>BJLB-1型非金属板厚度检测仪</span></a></li></ul>
-   
-</marquee>
-</div>
- <div id="product_r"></div>
- 
-
-
-
-                    </div>
-
-		</div>
+	<div id="main_1">
+	  <div id="left_bn">
+	    <a href="/culture/index.html"><img src="images/s_banner1.jpg" class="ban"/></a>
+	    <a href="/service/"><img src="images/s_banner2.jpg" class="ban" /></a>
+	    <img src="images/s_banner3.jpg" class="ban"/>
+	  </div>
+	  <div id="news">
+	    <div id="block_t">
+	      <div id="block_title">新闻中心</div>
+	      <div class="more"><a href="/news/" onfocus="this.blur();"><img src="/images/more.gif" border="0" /></a></div>
+	    </div>
+	    <div id="news_c">
+	      <ul id='LastedNews'><li><span class='date'>[2011-11-29]</span><a href='/news/27.html' title='2011全国测绘地理信息技术装备展览会'>2011全国测绘地理信息技术装备展览会</a></li><li><span class='date'>[2011-11-27]</span><a href='/news/24.html' title='反仿冒声明'>反仿冒声明</a></li><li><span class='date'>[2011-10-20]</span><a href='/news/23.html' title='中法大学旧址变身文化园'>中法大学旧址变身文化园</a></li><li><span class='date'>[2011-08-24]</span><a href='/news/22.html' title='健康体魄，快乐工作'>健康体魄，快乐工作</a></li><li><span class='date'>[2011-08-12]</span><a href='/news/21.html' title='BJQF-X远距裂缝观测仪赢得好评'>BJQF-X远距裂缝观测仪赢得好评</a></li><li><span class='date'>[2011-08-01]</span><a href='/news/20.html' title='青春飞扬的季节'>青春飞扬的季节</a></li></ul>
+	    </div>
+	  </div>
+	  <div id="gsjj">
+	    <div id="jj_t">
+	      <div id="jj_title">企业简介</div>
+	      <div class="more"><a href="/introduction/index.html" onfocus="this.blur();"><img src="images/more.gif" border="0" style="margin-top:7px;" /></a></div>
+	    </div>
+	    
+	    <div id="jj_c">
+	      <div><img src="images/jj_pic.jpg" style="float:left; margin:4px 12px 0px 0px;" class="pic_kuang"/></div>
+	      <div>　　北京光电技术研究所激光工程仪器事业部主要从事桥梁挠度检测、隧道断面检测及光电子技术应用等研究和开发工作。桥梁挠度检测仪和隧道断面检测仪是我事业部多年研制生产的主要产品、十年来共生产了四代产品五种型号，其中多项关键技术如位移检测靶、三角架快速对中附件、多点挠度检测仪、隧道限界...</div>		
+	    </div>
+	  </div>
+	  
 	</div>
 	
-	<div id="footer">
- <div>
-  <strong><div id='bottom_menu' class='bottom_menu'><a href='/contact/index.html' title='北京光电技术研究所——联系方式'>联系方式</a> | <a href='/navigate/tytg.html' title='北京光电技术研究所——网站导航'>网站导航</a> | <a href='/legal/tgg.html' title='北京光电技术研究所——法律声明'>法律声明</a> | <a href='/feedback/jld.html' title='北京光电技术研究所——意见反馈'>意见反馈</a> | <a href='/links/zlts.html' title='北京光电技术研究所——友情链接'>友情链接</a> | </div></strong> 版权所有 北京光电技术研究所 @ 2002-2011&nbsp;&nbsp;京ICP备07000002号-7&nbsp;&nbsp; 公安局备案号：110101000264</div>
- <div>
-  热线电话：010-64027958&nbsp;&nbsp;E_mail：zy04@vip.sina.com&nbsp;&nbsp;地址：北京市东城区东皇城根北街甲20号&nbsp;&nbsp;邮编：100010</div>
+	<div id="product">
+	  <div id="product_t">新<br />品<br />推<br />荐</div>
+	  <div id="product_bg">
+	    <div id="cp">
+	      <marquee direction="right" TrueSpeed scrollamount="3" scrolldelay="120" align="middle" behavior="scroll" onMouseOver="this.stop();"  hspace="0" vspace="0"  onMouseOut="this.start();">		<ul class='recommended_product'><li><a href='/products/3.html'><img src='/uploads/BJSD-5型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-5型激光隧道断面检测仪' title='BJSD-5型激光隧道断面检测仪' /></a><br /><a href='/products/3.html' title='BJSD-5型激光隧道断面检测仪'><span>BJSD-5型激光隧道断面检测仪</span></a></li><li><a href='/products/4.html'><img src='/uploads/BJSD-2E型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-2E型激光隧道断面检测仪' title='BJSD-2E型激光隧道断面检测仪' /></a><br /><a href='/products/4.html' title='BJSD-2E型激光隧道断面检测仪'><span>BJSD-2E型激光隧道断面检测仪</span></a></li><li><a href='/products/6.html'><img src='/uploads/BJSD-4型激光隧道断面检测仪.jpg_s.jpg' alt='BJSD-4型激光隧道断面检测仪' title='BJSD-4型激光隧道断面检测仪' /></a><br /><a href='/products/6.html' title='BJSD-4型激光隧道断面检测仪'><span>BJSD-4型激光隧道断面检测仪</span></a></li><li><a href='/products/9.html'><img src='/uploads/BJQN-4B型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-4B型桥梁挠度检测仪' title='BJQN-4B型桥梁挠度检测仪' /></a><br /><a href='/products/9.html' title='BJQN-4B型桥梁挠度检测仪'><span>BJQN-4B型桥梁挠度检测仪</span></a></li><li><a href='/products/10.html'><img src='/uploads/BJQN-5A型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-5A型桥梁挠度检测仪' title='BJQN-5A型桥梁挠度检测仪' /></a><br /><a href='/products/10.html' title='BJQN-5A型桥梁挠度检测仪'><span>BJQN-5A型桥梁挠度检测仪</span></a></li><li><a href='/products/11.html'><img src='/uploads/BJQN-5B型桥梁挠度检测仪.jpg_s.jpg' alt='BJQN-5B型智能桥梁挠度检测仪' title='BJQN-5B型智能桥梁挠度检测仪' /></a><br /><a href='/products/11.html' title='BJQN-5B型智能桥梁挠度检测仪'><span>BJQN-5B型智能桥梁挠度检测仪</span></a></li><li><a href='/products/14.html'><img src='/uploads/BJQF-X远距裂缝观测仪.jpg_s.jpg' alt='BJQF-X型远距裂缝观测仪' title='BJQF-X型远距裂缝观测仪' /></a><br /><a href='/products/14.html' title='BJQF-X型远距裂缝观测仪'><span>BJQF-X型远距裂缝观测仪</span></a></li><li><a href='/products/15.html'><img src='/uploads/BJLG-1型动态裂缝监测仪.jpg_s.jpg' alt='BJLG-1动态裂缝检测仪' title='BJLG-1动态裂缝检测仪' /></a><br /><a href='/products/15.html' title='BJLG-1动态裂缝检测仪'><span>BJLG-1动态裂缝检测仪</span></a></li><li><a href='/products/17.html'><img src='/uploads/BJCS-1型混凝土裂缝测深仪.jpg_s.jpg' alt='BJCS-1型智能裂缝测深仪' title='BJCS-1型智能裂缝测深仪' /></a><br /><a href='/products/17.html' title='BJCS-1型智能裂缝测深仪'><span>BJCS-1型智能裂缝测深仪</span></a></li><li><a href='/products/18.html'><img src='/uploads/BJLF-1型混凝土裂缝综合检测仪.jpg_s.jpg' alt='BJLF-1型混凝土裂缝综合检测仪' title='BJLF-1型混凝土裂缝综合检测仪' /></a><br /><a href='/products/18.html' title='BJLF-1型混凝土裂缝综合检测仪'><span>BJLF-1型混凝土裂缝综合检测仪</span></a></li><li><a href='/products/20.html'><img src='/uploads/BJQD-1型混凝土强度检测仪.jpg_s.jpg' alt='BJQD-1型混凝土强度检测仪' title='BJQD-1型混凝土强度检测仪' /></a><br /><a href='/products/20.html' title='BJQD-1型混凝土强度检测仪'><span>BJQD-1型混凝土强度检测仪</span></a></li><li><a href='/products/21.html'><img src='/uploads/BJNM-1型智能非金属超声检测仪.jpg_s.jpg' alt='BJNM-1型智能非金属超声检测仪' title='BJNM-1型智能非金属超声检测仪' /></a><br /><a href='/products/21.html' title='BJNM-1型智能非金属超声检测仪'><span>BJNM-1型智能非金属超声检测仪</span></a></li><li><a href='/products/22.html'><img src='/uploads/BJDW-1混凝土保护层厚度检测仪.jpg_s.jpg' alt='BJDW-1型钢筋保护层厚度检测仪' title='BJDW-1型钢筋保护层厚度检测仪' /></a><br /><a href='/products/22.html' title='BJDW-1型钢筋保护层厚度检测仪'><span>BJDW-1型钢筋保护层厚度检测仪</span></a></li><li><a href='/products/24.html'><img src='/uploads/BJLB-1型非金属板厚度检测仪.jpg_s.jpg' alt='BJLB-1型非金属板厚度检测仪' title='BJLB-1型非金属板厚度检测仪' /></a><br /><a href='/products/24.html' title='BJLB-1型非金属板厚度检测仪'><span>BJLB-1型非金属板厚度检测仪</span></a></li></ul>
+   		
+	      </marquee>
+	    </div>
+	    <div id="product_r"></div>
+ 	    
+	    
+	    
+	    
+          </div>
+	  
+	</div>
+      </div>
+      
+<!-- center image -->
+<div class="center">
+<a href="http://www.chnaf.com/zjzs/"><img ait="华毅澳峰介绍" src="/images/homead.gif"  border="0" /></a>
+</div>
+
+<!-- list -->
+<div class="w960 center clear mt1" style="height: auto;overflow:hidden; padding-top:10px;">
+<div class="homelisttitle">
+<h1><a href="http://www.chnaf.com/llyb/">流量仪表系列</a></h1> <span>
+
+<a href='http://www.chnaf.com/llyb/dcllj/'>电磁流量计</a> 
+
+<a href='http://www.chnaf.com/llyb/wjllj/'>涡街流量计</a> 
+
+<a href='http://www.chnaf.com/llyb/wlllj/'>涡轮流量计</a> 
+
+<a href='http://www.chnaf.com/llyb/csbllj/'>超声波流量计</a> 
+
+<a href='http://www.chnaf.com/llyb/jsgllj/'>金属管流量计</a> 
+
+<a href='http://www.chnaf.com/llyb/rszlllj/'>热式质量流量计</a> 
+
+<a href='http://www.chnaf.com/llyb/liuliangkaiguan/'>流量开关</a> 
+
+<a href='http://www.chnaf.com/llyb/llj/'>节流件</a> 
+
+</span></div>
+
+<div class="homelist">
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/llyb/dcllj_246.html" title="LD电磁流量计"><img src="http://www.chnaf.com/uploads/allimg/110909/1-110Z91316260-L.jpg" alt="LD电磁流量计" width="92"/></a></div>
+  <h3>型号：LD</h3>
+  <h3><a href="http://www.chnaf.com/llyb/dcllj_246.html" title="LD电磁流量计">电磁流量计</a></h3>
+  <a href="/caf/" title="CAF"><img src="/images/caf.gif" alt="CAF" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/llyb/llj_307.html" title="Nozzle喷嘴"><img src="http://www.chnaf.com/uploads/allimg/110930/1-110930103J90-L.jpg" alt="Nozzle喷嘴" width="92"/></a></div>
+  <h3>型号：Nozzle</h3>
+  <h3><a href="http://www.chnaf.com/llyb/llj_307.html" title="Nozzle喷嘴">喷嘴</a></h3>
+  <a href="/new-flow/" title="New-Flow"><img src="/images/new-flow.gif" alt="New-Flow" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/llyb/wjllj_244.html" title="LUGD管道式涡街流量计"><img src="http://www.chnaf.com/uploads/allimg/110909/1-110Z91011070-L.jpg" alt="LUGD管道式涡街流量计" width="92"/></a></div>
+  <h3>型号：LUGD</h3>
+  <h3><a href="http://www.chnaf.com/llyb/wjllj_244.html" title="LUGD管道式涡街流量计">管道式涡街流量计</a></h3>
+  <a href="/caf/" title="CAF"><img src="/images/caf.gif" alt="CAF" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/llyb/jsgllj_259.html" title="MF200E金属管流量计"><img src="http://www.chnaf.com/uploads/allimg/110914/1-1109141F1250-L.jpg" alt="MF200E金属管流量计" width="92"/></a></div>
+  <h3>型号：MF200E</h3>
+  <h3><a href="http://www.chnaf.com/llyb/jsgllj_259.html" title="MF200E金属管流量计">金属管流量计</a></h3>
+  <a href="/new-flow/" title="New-Flow"><img src="/images/new-flow.gif" alt="New-Flow" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/llyb/rszlllj_250.html" title="THF热式质量流量计"><img src="http://www.chnaf.com/uploads/110909/1-110Z9145Q32W.jpg" alt="THF热式质量流量计" width="92"/></a></div>
+  <h3>型号：THF</h3>
+  <h3><a href="http://www.chnaf.com/llyb/rszlllj_250.html" title="THF热式质量流量计">热式质量流量计</a></h3>
+  <a href="/new-flow/" title="New-Flow"><img src="/images/new-flow.gif" alt="New-Flow" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/llyb/rszlllj_252.html" title="TSF热式质量流量计"><img src="http://www.chnaf.com/uploads/allimg/110909/1-110Z91512320-L.jpg" alt="TSF热式质量流量计" width="92"/></a></div>
+  <h3>型号：TSF</h3>
+  <h3><a href="http://www.chnaf.com/llyb/rszlllj_252.html" title="TSF热式质量流量计">热式质量流量计</a></h3>
+  <a href="/new-flow/" title="New-Flow"><img src="/images/new-flow.gif" alt="New-Flow" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/llyb/wlllj_240.html" title="LWYT液体涡轮流量计"><img src="http://www.chnaf.com/uploads/allimg/110908/1-110ZQ52G60-L.jpg" alt="LWYT液体涡轮流量计" width="92"/></a></div>
+  <h3>型号：LWYT</h3>
+  <h3><a href="http://www.chnaf.com/llyb/wlllj_240.html" title="LWYT液体涡轮流量计">液体涡轮流量计</a></h3>
+  <a href="/caf/" title="CAF"><img src="/images/caf.gif" alt="CAF" width="100"/></a>
+  
 </div>
 
 </div>
+
+</div>
+<!-- list2 -->
+<div class="w960 center clear mt1" style="height: auto;overflow:hidden; padding-top:10px;">
+<div class="homelisttitle">
+<h1><a href="http://www.chnaf.com/wdyb/">温度仪表系列</a></h1> <span>
+
+<a href='http://www.chnaf.com/wdyb/wdbsq/'>温度变送器</a> 
+
+<a href='http://www.chnaf.com/wdyb/wdkg/'>温度开关</a> 
+
+<a href='http://www.chnaf.com/wdyb/wdbsqkzy/'>温度变送控制仪</a> 
+
+<a href='http://www.chnaf.com/wdyb/wsdbsq/'>温湿度变送器</a> 
+
+<a href='http://www.chnaf.com/wdyb/wxyb/'>无线仪表</a> 
+
+<a href='http://www.chnaf.com/wdyb/zxwdyb/'>总线温度仪表</a> 
+
+</span></div>
+
+<div class="homelist">
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/wdyb/wxyb_353.html" title="WX1000无线通讯终端"><img src="http://www.chnaf.com/uploads/allimg/111019/1-1110191R0330-L.jpg" alt="WX1000无线通讯终端" width="92"/></a></div>
+  <h3>型号：WX1000</h3>
+  <h3><a href="http://www.chnaf.com/wdyb/wxyb_353.html" title="WX1000无线通讯终端">无线通讯终端</a></h3>
+  <a href="/solution/" title="Solution"><img src="/images/solution.gif" alt="Solution" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/wdyb/wxyb_175.html" title="T3000智能低功耗无线温度传感器"><img src="http://www.chnaf.com/uploads/111019/1-11101915533K55.jpg" alt="T3000智能低功耗无线温度传感器" width="92"/></a></div>
+  <h3>型号：T3000</h3>
+  <h3><a href="http://www.chnaf.com/wdyb/wxyb_175.html" title="T3000智能低功耗无线温度传感器">无线温度变送器</a></h3>
+  <a href="/solution/" title="Solution"><img src="/images/solution.gif" alt="Solution" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/wdyb/wsdbsq_237.html" title="PDFT4温湿度变送器"><img src="http://www.chnaf.com/uploads/allimg/110906/1-110Z61514460-L.jpg" alt="PDFT4温湿度变送器" width="92"/></a></div>
+  <h3>型号：PDFT4</h3>
+  <h3><a href="http://www.chnaf.com/wdyb/wsdbsq_237.html" title="PDFT4温湿度变送器">温湿度变送器</a></h3>
+  <a href="/caf/" title="CAF"><img src="/images/caf.gif" alt="CAF" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/wdyb/wxyb_357.html" title="WX2000 无线网关"><img src="http://www.chnaf.com/uploads/allimg/111020/1-1110201620230-L.jpg" alt="WX2000 无线网关" width="92"/></a></div>
+  <h3>型号：WX2000</h3>
+  <h3><a href="http://www.chnaf.com/wdyb/wxyb_357.html" title="WX2000 无线网关">无线网关</a></h3>
+  <a href="/solution/" title="Solution"><img src="/images/solution.gif" alt="Solution" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/wdyb/zxwdyb_364.html" title="T4000总线温度变送器"><img src="http://www.chnaf.com/uploads/allimg/111024/1-1110241030000-L.jpg" alt="T4000总线温度变送器" width="92"/></a></div>
+  <h3>型号：T4000</h3>
+  <h3><a href="http://www.chnaf.com/wdyb/zxwdyb_364.html" title="T4000总线温度变送器">总线温度变送器</a></h3>
+  <a href="/solution/" title="Solution"><img src="/images/solution.gif" alt="Solution" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/wdyb/wxyb_355.html" title="T3000N增强型无线温度变送器"><img src="http://www.chnaf.com/uploads/allimg/111020/1-111020160U80-L.jpg" alt="T3000N增强型无线温度变送器" width="92"/></a></div>
+  <h3>型号：T3000N</h3>
+  <h3><a href="http://www.chnaf.com/wdyb/wxyb_355.html" title="T3000N增强型无线温度变送器">无线温度变送器</a></h3>
+  <a href="/solution/" title="Solution"><img src="/images/solution.gif" alt="Solution" width="100"/></a>
+  
+</div>
+<div class="goodimgbox">
+  <div class="goodimg"><a href="http://www.chnaf.com/wdyb/wdbsq_178.html" title="高稳定温度变送模块"><img src="http://www.chnaf.com/uploads/allimg/110818/1-110QQ511060-L.jpg" alt="高稳定温度变送模块" width="92"/></a></div>
+  <h3>型号：AFT10</h3>
+  <h3><a href="http://www.chnaf.com/wdyb/wdbsq_178.html" title="高稳定温度变送模块">稳定温度变送模块</a></h3>
+  <a href="/caf/" title="CAF"><img src="/images/caf.gif" alt="CAF" width="100"/></a>
+  
+</div>
+
+</div>
+
+</div>
+
+ <!--/mainContent--> 
+  <div class="footerlist">
+  <div class="detail mt1">
+    <ul class="fl">
+      <li class="title">流量仪表系列</li>
+      
+      <li><a href='http://www.sdtcck.com/dianciliuliangji/'>电磁流量计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/wojieliuliangji/'>涡街流量计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/wolunliuliangji/'>涡轮流量计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/zhuanziliuliangji/'>转子流量计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/chaoshengboliuliangji/'>超声波流量计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/xuanjinxuanwoliuliangji/'>旋进旋涡流量计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/kongbanliuliangji/'>孔板流量计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/qitaliuliangji/'>其他流量计仪表</a> </li>
+      
+    </ul>
+    <ul class="fl">
+      <li class="title">液位仪表系列</li>
+      
+      <li><a href='http://www.sdtcck.com/chaoshengboyeweiji/'>超声波液位计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/leidawuweiji/'>雷达液位计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/shepindaonawuweiji/'>射频导纳液位计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/cifanbanyeweiji/'>磁翻板液位计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/cizhishensuoyeweiji/'>磁致伸缩液位计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/dianrongyeweiji/'>电容液位计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/yeliaoweikaiguan/'>液位/料位开关</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/fuqiuyeweikaiguan/'>浮球液位开关</a> </li>
+      
+    </ul>
+    <ul class="fl">
+      <li class="title">压力温度仪表系列</li>
+      
+      <li><a href='http://www.sdtcck.com/yalibiansongqi/'>压力变送器</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/chayachuanganqi/'>差压传感器</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/luosimengteyalibiansongqi/'>罗斯蒙特压力变送器</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/ejayalibiansongqi/'>EJA压力变送器</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/yalikaiguan/'>压力开关</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/redianzu/'>热电阻</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/redianou/'>热电偶</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/yitihuawendubiansongqi/'>一体化温度变送器</a> </li>
+      
+      
+    </ul>
+    <ul class="fl">
+      <li class="title">校验仪表系列</li>
+      
+      <li><a href='http://www.sdtcck.com/yaliyuan_yalibeng/'>压力源/压力泵</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/yalixiaoyantai/'>压力校验台</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/qpjyqjyzz/'>气瓶减压器校验装置</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/jingmishuziyalibiao/'>精密数字压力表</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/yalijiaoyanyi/'>压力校验仪</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/huosaiyaliji/'>活塞压力计</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/yalibengfujian/'>压力泵附件</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/wendujiaoyanzhuang/'>温度校验装置</a> </li>
+      
+    </ul>
+    <ul class="fl">
+      
+      <li class="title">控制仪表系列</li>
+      
+      <li><a href='http://www.sdtcck.com/shuxiankongzhiyibiao/'>数显控制仪表</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/wuzhijiluyi/'>无纸记录仪</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/xunjianyi/'>巡检仪</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/plc/'>PLC</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/zutaiwangruanjian/'>组态王软件</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/renjijiemian/'>人机界面</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/anquanzhageliqi/'>安全栅隔离器</a> </li>
+      
+      <li><a href='http://www.sdtcck.com/zidonghuakongzhixi/'>自动化控制系统</a> </li>
+      
+    </ul>
+    <ul class="fl">
+      <li class="title">实达同创资讯</li>
+<li><a href='/blog/archives/1480' title='浅谈几种污水流量测量流量计' target='_blank'>浅谈几种污水流量测量流量计</a></li><li><a href='/blog/archives/1477' title='电子巴智能流量计' target='_blank'>电子巴智能流量计</a></li><li><a href='/blog/archives/1475' title='电磁流量计的二次装置' target='_blank'>电磁流量计的二次装置</a></li><li><a href='/blog/archives/1472' title='防爆电磁流量计实达同创' target='_blank'>防爆电磁流量计实达同创</a></li><li><a href='/blog/archives/1470' title='电磁流量计在供水行业应用' target='_blank'>电磁流量计在供水行业应用</a></li><li><a href='/blog/archives/1468' title='电磁流量计培训内容 ' target='_blank'>电磁流量计培训内容 </a></li><li><a href='/blog/archives/1465' title='电磁流量计空管检测研究概述' target='_blank'>电磁流量计空管检测研究概述</a></li><li><a href='/blog/archives/1463' title='机械密封WFF智能电磁流量计' target='_blank'>机械密封WFF智能电磁流量计</a></li>
+    </ul>
+  </div>
+ <!--/news-->
+  <div class="clearfloat"></div>
+</div>
+
+<!-- footer2 -->
+<!-- //底部模板 -->
+<div class="footernav w960 center mt1 clear">
+<ul>
+<li><a href='http://www.chnaf.com/'>首页</a> | <a href="http://www.chnaf.com/zjcaf/qywh/">企业文化</a> | <a href="http://www.chnaf.com/zjcaf/zzjg/">组织机构</a> | <a href="http://www.chnaf.com/zjcaf/rczp/">人才招聘</a> | <a href="http://www.chnaf.com/zjcaf/zzzs/">资质证书</a> | <a href="http://www.chnaf.com/zjcaf/lpx/">礼品箱</a> | <a href="http://www.chnaf.com/zjcaf/dljm/">代理加盟</a> | <a href="http://www.chnaf.com/zjcaf/sqyb/">索取样本</a> | <a href="http://www.chnaf.com/zjcaf/caftuanduifengcai/">CAF团队风采</a> | <a href="http://www.chnaf.com/zjcaf/lxwm/">联系我们</a></li>
+</ul>	
+</div>
+
+
+<div style="border-top:1px solid #333; background:#efefef">
+<div class="footer w960 center mt1 clear">
+	
+    <div class="footer_left"></div>
+    <div class="footer_body">
+	<p class="powered">    
+		<div class="copyright">Copyright &copy; 2010-
+
+       <a href="http://www.chnaf.com"><b>流量计</b></a> <a href="http://www.chnaf.com"><b>物位计</b></a> <a href="http://www.chnaf.com"><b>变送器</b> </a> All Rights Reserved.<br />
+      地址：北京市海淀区上地科贸大厦303号  邮编：<SPAN lang="EN-US">100085  总机:400-000-1825 <br>
+<!--
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffa967ce1d079fc836ea37edbb554d0a0' type='text/javascript'%3E%3C/script%3E"));
-</script>
+document.write(unescape("%3Cscript src=" + _bdhmProtocol + "hm.baidu.com/h.js%3Fced65ace158f09cd4b0c0b96f0a155a7 type=text/javascript%3E%3C/script%3E"));
+</script>    
+<script type="text/javascript" src="http://gate.looyu.com/39178/86968.js"></script>
+-->
+&#160;&#160;京ICP备06043509号</div></p>        
+<!-- /powered -->
+   </div>
+   <div class="footer_right"></div>
+</div>
+</div>
 
-</body>
+<!-- footer 
+<div id="clearfloat" ></div>
+      <div id="footer">
+	<div>
+	  <strong><div id='bottom_menu' class='bottom_menu'><a href='/contact/index.html' title='北京光电技术研究所——联系方式'>联系方式</a> | <a href='/navigate/tytg.html' title='北京光电技术研究所——网站导航'>网站导航</a> | <a href='/legal/tgg.html' title='北京光电技术研究所——法律声明'>法律声明</a> | <a href='/feedback/jld.html' title='北京光电技术研究所——意见反馈'>意见反馈</a> | <a href='/links/zlts.html' title='北京光电技术研究所——友情链接'>友情链接</a> | </div></strong> 版权所有 北京光电技术研究所 @ 2002-2011&nbsp;&nbsp;京ICP备07000002号-7&nbsp;&nbsp; 公安局备案号：110101000264</div>
+	<div>
+	  热线电话：010-64027958&nbsp;&nbsp;E_mail：zy04@vip.sina.com&nbsp;&nbsp;地址：北京市东城区东皇城根北街甲20号&nbsp;&nbsp;邮编：100010</div>
+      </div>
+    
+    </div>
+-->
+    <!--
+    <script type="text/javascript">
+      var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+      document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffa967ce1d079fc836ea37edbb554d0a0' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+  -->
+  </body>
 </html>

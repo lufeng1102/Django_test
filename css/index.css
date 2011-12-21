@@ -1,5 +1,9 @@
 #mainer { float:left; margin: 0px; width: 958px; HEIGHT: 100%; overflow: hidden; margin-bottom:10px;}
 
+#mainContent, .footerlist { width:972px; overflow: hidden; zoom:1; }
+.mt1 { margin-top:10px; }
+#clearfloat { float:left; margin: 0px; width: 30px; HEIGHT: 100%; overflow: hidden; margin-bottom:10px;}
+
 #main_1{ float:left; width:958px; margin-top:9px; padding:0px;}
 #left_bn{ float:left; width:214px; margin-right:8px;}
 .ban{ margin-bottom:7px; /*For Firefox*/ *margin-bottom:3px; /*For IE7 & IE6*/ _margin-bottom:3px; /*For IE6*/}
